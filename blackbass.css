@@ -1,0 +1,69 @@
+
+.blackbass
+{
+  background-image: url(blackbass.png);
+  background-repeat: no-repeat;
+  z-index: 40;
+  width: 640px;
+  height: 196px;
+
+}
+
+.maru
+{
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  border-radius: 50%;
+  bottom: 200px;
+  right: 200px;
+  z-index: 50;
+  position: absolute;
+  text-align: center;
+  font-size: 50px;
+  line-height: 200px;
+  cursor: pointer;
+}
+
+
+.basskage
+{
+  height: 100px;
+  width: 100px;
+  z-index: 30;
+  background-image: url(basskage.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  }
+
+  .ike {
+    width: 1000px;
+    height: 500px;
+    background-color: deepskyblue;
+    position: relative;
+    bottom: 100px;
+    left:30px;
+    vertical-align: middle;
+    overflow: hidden;
+    border-radius: 60%;
+  }
+  .field {
+    height: 600px;
+    width: 1100px;
+    position: relative;
+    top: 1000px;
+
+}
+
+.sao{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 40;
+  background-image: url('sao.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
